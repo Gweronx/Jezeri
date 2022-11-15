@@ -42,7 +42,7 @@ def main():
 			o.append(f'{dent}{line}')
 		elif line.startswith("if otherwise "):
 			for i in range(d):dent+="\t"
-			o.append(f'{dent}elif {line.replace("if otherwise ","",1)}')
+			o.append(f'{dent}elif {line.replace("if otherwise ","",1)}:')
 		elif line=="otherwise":
 			for i in range(d):dent+="\t"
 			o.append(f'{dent}else:')
