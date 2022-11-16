@@ -1,6 +1,7 @@
 from sys import argv
 from subprocess import run as sh
 print(f"JEZERI v1 (c) Leander Francis Westren Johns 2022")
+print(f"------------------------------------------------")
 def main():
 	print(f"Opening <{argv[1]}>...")
 	try:f=open(argv[1])
