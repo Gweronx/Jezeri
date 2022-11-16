@@ -56,7 +56,7 @@ def main():
 			o.append(f'pass')
 		elif line=="halt":
 			for i in range(d):dent+="\t"
-			o.append(f'quit()')
+			o.append(f'{dent}quit()')
 		elif line.startswith("use"):
 			o.append(f'{line.replace("use ","import ")}')
 		elif line=="finish":
