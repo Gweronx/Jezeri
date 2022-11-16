@@ -3,8 +3,9 @@ from subprocess import run as sh
 print(f"JEZERI v1 (c) Leander Francis Westren Johns 2022")
 print(f"------------------------------------------------")
 def main():
-	print(f"Opening <{argv[1]}>...")
-	try:f=open(argv[1])
+	try:
+		print(f"Opening <{argv[1]}>...")
+		f=open(argv[1])
 	except:
 		print(f"FATAL: Cannot find file <{argv[1]}>.")
 		quit()
