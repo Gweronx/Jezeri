@@ -75,5 +75,5 @@ def main():
 	print(f"Compiled <{f.name}> succesfully!\nRun ./{of.name} to execute your program.")
 	f.close()
 	of.close()
-if len(argv)==0:quit()
+if len(argv)==1:quit()
 else:main()
