@@ -41,15 +41,19 @@ def main():
 			o.append(f'{dent}{line.replace("call ","",1)}')
 		elif line.startswith("if "):
 			for i in range(d):dent+="\t"
+			d+=1
 			o.append(f'{dent}{line}')
 		elif line.startswith("if otherwise "):
 			for i in range(d):dent+="\t"
+			d+=1
 			o.append(f'{dent}elif {line.replace("if otherwise ","",1)}:')
 		elif line=="otherwise":
 			for i in range(d):dent+="\t"
+			d+=1
 			o.append(f'{dent}else:')
 		elif line.startswith("for "):
 			for i in range(d):dent+="\t"
+			d+=1
 			o.append(f'{line}')
 		elif line=="continue":
 			for i in range(d):dent+="\t"
