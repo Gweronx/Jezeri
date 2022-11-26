@@ -1,5 +1,5 @@
 # Jezeri, a slique language.
-Jezeri is a simple Pascal-inspired programming language. It compiles directly to Python, and automatically runs chmod on the output file.
+Jezeri is a simple Pascal-inspired programming language. It compiles directly to Python, and automatically runs `chmod` on the output file.
 # Example
 ```
 program Test
