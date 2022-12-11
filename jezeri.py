@@ -51,10 +51,10 @@ def main():
 			for i in range(d):dent+="\t"
 			d+=1
 			o.append(f'{dent}else:')
-		elif line.startswith("for "):
+		elif line.startswith("for"):
 			for i in range(d):dent+="\t"
 			d+=1
-			o.append(f'{line}')
+			o.append(f'{dent}{line}')
 		elif line=="continue":
 			for i in range(d):dent+="\t"
 			o.append(f'pass')
