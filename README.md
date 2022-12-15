@@ -7,7 +7,7 @@ start main()
   print "Hello, World!"
 finish
 ```
-_Program defines the name of the output file. Even if this file is named askjdas.jz Jezeri will output Test._
+_`program` defines the name of the output file. Even if this file is named askjdas.jz Jezeri will output Test._
 ```
 program MadLibs
 start main()
