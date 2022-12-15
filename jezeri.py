@@ -63,6 +63,8 @@ def main():
 			o.append(f'{dent}quit()')
 		elif line.startswith("use"):
 			o.append(f'{line.replace("use ","import ")}')
+		elif line.startswith("through"):
+			o.append(f'{line.replace("use ","import ").replace("through","from"}')
 		elif line=="finish":
 			d-=1
 		else:
